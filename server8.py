@@ -3,6 +3,11 @@ import sys
 import threading
 import select
 
+'''
+References:
+	- http://ilab.cs.byu.edu/python/threadingmodule.html
+'''
+
 class Server:
 	def __init__(self):
 		self.host = ''		# Accept any connection
